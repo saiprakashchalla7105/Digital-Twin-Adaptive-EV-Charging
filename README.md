@@ -53,7 +53,7 @@ The system creates a digital twin of the transformer using MATLAB/Simulink. Real
 This shows the transformer operating under safe loading conditions without any overload.
 
 2. Overload Condition (Without Control)
-![Overload Without Control](RES_2_OVERLOAD(WO_CONTROL).png)
+![Overload Without Control](RES_2_OVERLOAD(WO_CONTROL).jpg)
 
 In this scenario, the transformer experiences overload due to uncontrolled EV charging demand.
 
