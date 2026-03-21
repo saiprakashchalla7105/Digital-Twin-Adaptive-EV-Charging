@@ -69,3 +69,6 @@ This result demonstrates how the digital twin model effectively monitors and con
 1 Reduced transformer overload conditions
 2 Improved charging efficiency
 3 Better load management
+
+
+This project presents a Digital Twin based adaptive EV charging system that monitors transformer load and dynamically controls charging to prevent overload, improving system reliability and efficiency.
