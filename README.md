@@ -26,26 +26,45 @@ Overall, the proposed system demonstrates a smart grid approach by integrating d
 3 Basic Machine Learning (Regression)
 4 Power System Analysis
 
-** Key Features **
+ MATLAB/Simulink Model
 
-1 Real-time transformer monitoring
-2 Digital twin-based simulation
-3 Adaptive EV charging control
-4 Overload prediction and prevention
+![MATLAB Model](MATLAB_SIMULINK.jpg)
+
+This is my developed MATLAB/Simulink model for the Digital Twin Based Adaptive EV Charging System. The model represents the complete system including:
+
+- Three-phase grid and transformer setup  
+- Voltage and current measurement blocks  
+- Transformer loading calculation  
+- EV charging load integration  
+- Adaptive control mechanism  
+- Digital twin-based prediction and decision system  
+
+The model continuously monitors transformer loading conditions and dynamically adjusts EV charging power to prevent overload, ensuring safe and efficient operation of the power system.
 
 ** Working Principle **
 
 The system creates a digital twin of the transformer using MATLAB/Simulink. Real-time load data is analyzed and compared with the simulated model. Based on transformer loading conditions, the EV charging rate is dynamically adjusted to prevent overload and ensure safe operation.
-
-
 ** Results **
 
+1. Normal Loading Condition
+![Normal Load](RES_1_NormalLoad.jpg)
+
+This shows the transformer operating under safe loading conditions without any overload.
+
+2. Overload Condition (Without Control)
+![Overload Without Control](RES_2_OVERLOAD(WO_C).png)
+
+In this scenario, the transformer experiences overload due to uncontrolled EV charging demand.
+
+3. Overload Condition (With Adaptive Control)
+![Overload With Control](RES_3_OVERLOAD(WITH_CONTROL).jpg)
+
+The adaptive EV charging system reduces the charging load to prevent transformer overload.
+
+4. Digital Twin Performance
+![Digital Twin Performance](RES_4_DIGITAL_TWIN_PERFORMANCE.jpeg)
+
+This result demonstrates how the digital twin model effectively monitors and controls the system for safe operation.
 1 Reduced transformer overload conditions
 2 Improved charging efficiency
 3 Better load management
-
- ** Future Scope **
-
-1 Integration with IoT for real-time data
-2 Advanced AI/ML models for prediction
-3 Smart grid implementation
