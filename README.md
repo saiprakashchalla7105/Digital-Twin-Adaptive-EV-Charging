@@ -44,6 +44,7 @@ The model continuously monitors transformer loading conditions and dynamically a
 ** Working Principle **
 
 The system creates a digital twin of the transformer using MATLAB/Simulink. Real-time load data is analyzed and compared with the simulated model. Based on transformer loading conditions, the EV charging rate is dynamically adjusted to prevent overload and ensure safe operation.
+
 ** Results **
 
 1. Normal Loading Condition
