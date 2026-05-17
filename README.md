@@ -28,7 +28,7 @@ Overall, the proposed system demonstrates a smart grid approach by integrating d
 
  MATLAB/Simulink Model
 
-![MATLAB Model](MATLAB_SIMULINK.jpg)
+![MATLAB Model](MATLABMODEL.jpg)
 
 This is my developed MATLAB/Simulink model for the Digital Twin Based Adaptive EV Charging System. The model represents the complete system including:
 
@@ -48,17 +48,17 @@ The system creates a digital twin of the transformer using MATLAB/Simulink. Real
 ** Results **
 
 1. Normal Loading Condition
-![Normal Load](RES_1_NormalLoad.jpg)
+![Normal Load](RES_1_NormalLoading.jpg)
 
 This shows the transformer operating under safe loading conditions without any overload.
 
 2. Overload Condition (Without Control)
-![Overload Without Control](RES_2_OVERLOAD(WO_CONTROL).jpg)
+![Overload Without Control](RES_2_OverLoaded(NO_Controller).jpg)
 
 In this scenario, the transformer experiences overload due to uncontrolled EV charging demand.
 
 3. Overload Condition (With Adaptive Control)
-![Overload With Control](RES_3_OVERLOAD(WITH_CONTROL).jpg)
+![Overload With Control](RES_3_OverLoadedWITH_Controller).jpg)
 
 The adaptive EV charging system reduces the charging load to prevent transformer overload.
 
