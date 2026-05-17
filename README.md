@@ -1,6 +1,6 @@
-DIGITAL TWIN BASED ADAPTIVE EV CHARGING SYSTEM FOR TRANSFORMER OVERLOAD PREVENTION USING MATLAB/SIMULINK
+DIGITAL TWIN-BASED TRANSFORMER OVERLOAD PREVENTION SYSTEM FOR EV INTEGRATION 
 
-A Digital Twin-based adaptive EV charging system that monitors transformer load in real time and dynamically controls charging to prevent overload using MATLAB/Simulink.
+A Digital Twin-based & adaptive EV charging system that monitors transformer load in real time and dynamically controls charging to prevent overload using MATLAB/Simulink.
 
 The **Digital Twin Based Adaptive EV Charging System for Transformer Overload Prevention** is an intelligent solution designed to optimize electric vehicle (EV) charging while ensuring the safe operation of distribution transformers. The system leverages digital twin technology to create a real-time virtual model of a physical transformer, enabling continuous monitoring and predictive analysis.
 
